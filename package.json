@@ -1,0 +1,37 @@
+{
+  "name": "tiny-nodemon",
+  "version": "1.0.0",
+  "description": "Tiny and simpler nodemon to use with gulp, with server ready after start to manage browser-sync reload.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "clear & node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boulaya66/tiny-nodemon.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "gulp",
+    "nodemon"
+  ],
+  "author": "Burro69",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boulaya66/tiny-nodemon/issues"
+  },
+  "homepage": "https://github.com/boulaya66/tiny-nodemon#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
